@@ -1,0 +1,42 @@
+body{
+    zoom:85%
+}
+
+.btn-group-sm>.btn, .btn-smn {
+    padding: 0.13rem 0.5rem !important;
+}
+
+[class^="bi-"]::before, [class*=" bi-"]::before{
+    vertical-align: middle;
+}
+
+.table_btn{
+    display: inline-block;
+    padding: 0.25em 0.50em;
+    font-size: .85em;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0.25rem;
+}
+
+.bg-purple{
+    background-color: #FF5F1F;
+}
+
+.pointer {cursor: pointer !important;}
+
+.badge {cursor: default;}
+
+.bg-vr,.btn-vr{
+    background-color: #C71585;
+    color: #fff !important;
+}
+
+.btn:disabled,.table_btn:disabled,.badge:disabled,.disabled{
+    opacity: .65 !important;
+
+}
